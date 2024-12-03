@@ -1,0 +1,72 @@
+/** Mobile first -- 0px --> 566px */
+.header {
+    background-color: brown;
+}
+   
+/** 567px --> 767px */
+@media (min-width: 567px) {
+    .header {
+        background-color: orange;
+    }
+
+}
+
+/** 768px --> 1023px */
+@media (min-width: 768px) {
+    .header{
+        background-color: blueviolet;
+    }
+}
+
+/** 1024px --> 1199px */
+@media(min-width: 1024px) {
+    .header{
+        background-color: aqua;
+    }
+}
+
+/** 1200px --> 1399px */
+@media(min-width: 1200px) {
+    .header{
+        background-color: cadetblue;
+    }
+}
+
+/** 1400px --> 1599px */
+@media(min-width: 1400px) {
+    .header{
+        background-color: chartreuse;
+    }
+}
+
+/** 1600px --> 1919px */
+@media (min-width: 1600px) {
+    .header {
+        background-color: blue;
+    }
+
+}
+
+/** 1920px --> 2159px */
+@media (min-width: 1920px) {
+    .header {
+        background-color: palevioletred;
+    }
+
+}
+
+/** 2160px --> 2559px */
+@media (min-width: 2160px) {
+    .header {
+        background-color: orange;
+    }
+
+}
+
+/** 2560px --> more */
+@media (min-width: 2560px) {
+    .header {
+        background-color: rgb(246, 255, 0);
+    }
+
+}
