@@ -5,7 +5,15 @@
 .main {
     background-color: pink;
 }
-
+.filter{
+    background-color: forestgreen;
+}
+.main-filter{
+    background-color: deeppink;
+}
+.main-content{
+    background-color: lemonchiffon;
+}
 .footer {
     background-color: green;
 }
@@ -16,6 +24,13 @@
     max-width: 96%;
     margin: 0 auto;
     padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
     box-sizing: border-box;
 }
 /** 567px --> 767px */
