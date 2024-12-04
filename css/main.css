@@ -5,6 +5,13 @@
 .main {
     background-color: pink;
 }
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.main-container{
+    order: -1;
+}
 .filter{
     background-color: forestgreen;
 }
@@ -38,14 +45,24 @@
    .container {
     max-width: 540px;
     padding: 0 16px;
-   }
-}
+    }
+    }
 
 /** 768px --> 1023px */
 @media (min-width: 768px) {
    .container{
     max-width: 720px;
     padding: 0 24px;
+   }
+   .main-wrapper{
+    flex-direction: row;
+}
+.filter{
+    flex-basis: 280px;
+}
+   .main-container{
+    flex: 1;
+    order: initial;
    }
 }
 
